@@ -1,6 +1,10 @@
-
-@import url(http://fonts.googleapis.com/css?family=Circular);
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
+@font-face {
+  font-family: 'Circular';
+  src: url("https://rawgit.com/garrettmac/Bauhaus93-Font/master/assets/fonts/Circular/circular-book.woff") format("woff"), url("https://rawgit.com/garrettmac/Bauhaus93-Font/master/assets/fonts/Circular/circular-book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 .smaller {
   font-size: 90%;
 }
