@@ -1,5 +1,71 @@
 @import url(http://fonts.googleapis.com/css?family=Circular);
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
+.smaller {
+  font-size: 90%;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.shadow-overlay .content-wrapper,
+.shadow-overlay {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.slide-table {
+  margin-top: -10% !important;
+}
+
+.slide-table td {
+  font-size: 200%;
+  padding-top: 3% !important;
+  padding-right: 10% !important;
+}
+
+.slide-table td a:hover {
+  color: #79eac1;
+}
+
+.product-slide-table {
+  margin-top: -15% !important;
+  padding-top: 15% !important;
+  padding-bottom: 10% !important;
+}
+.product-slide-table tr td {
+  background-size: cover;
+  position: relative;
+}
+.product-slide-table tr td p,
+.product-slide-table tr td h2 {
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  color: white;
+  letter-spacing: -1px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 3px;
+  position: absolute;
+  left: 3%;
+  width: 100%;
+}
+.product-slide-table tr td h2 {
+  top: 70%;
+}
+.product-slide-table tr td p {
+  top: 50%;
+  text-shadow: 2px 2px 4px #000000;
+}
+.product-slide-table tr td img {
+  vertical-align: middle;
+  height: 15rem;
+}
+.product-slide-table .hover-details {
+  display: none;
+}
+.product-slide-table img:hover + .hover-details {
+  display: block;
+}
+
 .bar {
   display: flex;
   align-items: center;
@@ -91,12 +157,30 @@ body {
   background-image: url("https://rawgit.com/garrettmac/Image-Hosing/master/Shopify-Custom-Theme/finger-orange.png");
 }
 .background:nth-child(5) {
-  background-image: url("https://rawgit.com/garrettmac/Image-Hosing/master/Shopify-Custom-Theme/gym-girl.png");
+  background: #ff1b4d;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #ff1b4d, #79eac1);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #ff1b4d, #79eac1);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #ff1b4d, #79eac1);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #ff1b4d, #79eac1);
+  transform: translateY(-15vh);
+}
+.background:nth-child(5) p {
+  margin-left: 20%;
+}
+.background:nth-child(5) .content-wrapper {
+  transform: translateY(15vh);
 }
 .background:nth-child(6) {
-  background-image: url("https://rawgit.com/garrettmac/Image-Hosing/master/Shopify-Custom-Theme/dance-girl-2.png");
+  background-image: url("https://rawgit.com/garrettmac/Image-Hosing/master/Shopify-Custom-Theme/gym-girl.png");
 }
 .background:nth-child(7) {
+  background-image: url("https://rawgit.com/garrettmac/Image-Hosing/master/Shopify-Custom-Theme/dance-girl-2.png");
+}
+.background:nth-child(8) {
   background-image: url("https://rawgit.com/garrettmac/Image-Hosing/master/Shopify-Custom-Theme/dance-girl-1.png");
 }
 
