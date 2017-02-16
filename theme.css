@@ -1,10 +1,14 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
+/* @import url(http://fonts.googleapis.com/css?family=Montserrat); */
 @font-face {
   font-family: 'Circular';
-  src: url("https://rawgit.com/garrettmac/Bauhaus93-Font/master/assets/fonts/Circular/circular-book.woff") format("woff"), url("https://rawgit.com/garrettmac/Bauhaus93-Font/master/assets/fonts/Circular/circular-book.ttf") format("truetype");
+  src: url("//rawgit.com/garrettmac/Bauhaus93-Font/master/assets/fonts/Circular/circular-book.woff") format("woff"), url("https://rawgit.com/garrettmac/Bauhaus93-Font/master/assets/fonts/Circular/circular-book.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
+* {
+  font-family: 'Circular',"Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
 .smaller {
   font-size: 90%;
 }
@@ -229,8 +233,8 @@ body {
   text-align: center;
   flex-flow: column nowrap;
   color: #fff;
-/*   font-family: Montserrat; */
-/*   text-transform: uppercase; */
+  font-family: Montserrat;
+  text-transform: uppercase;
   transform: translateY(40vh);
   will-change: transform;
   backface-visibility: hidden;
