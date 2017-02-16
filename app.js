@@ -55,7 +55,7 @@ var mousewheelEvent = isFirefox ? "DOMMouseScroll" : "wheel";
 window.addEventListener(mousewheelEvent, _.throttle(parallaxScroll, 60), false);
 
 // ------------- SLIDE MOTION ------------- //
-function nextItem() {
+function nextItem() { 
   var $previousSlide = $(".background").eq(currentSlideNumber - 1);
   $previousSlide.removeClass("up-scroll").addClass("down-scroll");
 }
